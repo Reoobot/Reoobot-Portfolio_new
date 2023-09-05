@@ -28,7 +28,7 @@ export default function CardProject() {
     <div data-aos="fade-right">
       <Button onClick={handleOpen} >
        <img className='img_receta' 
-              src={receta} alt="soundwave" />
+              src={receta} alt="receta" />
       </Button>
       <Modal
         open={open}
@@ -38,14 +38,16 @@ export default function CardProject() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+          Recette Social
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          Created with React, nestjs, mondoDB, node, npm, Typescript, axios technologies, 
+          such as trellor, github, figma, canva...
+          March 2023
           </Typography>
           <ListItemButton href='https://client-six-gules.vercel.app' target='_blank'>
              <img className='img_sound' 
-              src={receta} alt="soundwave" />
+              src={receta} alt="receta" />
       </ListItemButton>
         </Box>
       </Modal>

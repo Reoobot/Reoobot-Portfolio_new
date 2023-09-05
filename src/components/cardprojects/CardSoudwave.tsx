@@ -37,10 +37,12 @@ export default function CardSoundwave() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+           SOUND WAVE
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          Created with React, npm, Typescript, material-ui technologies, 
+          such as trellor, github, figma, canva...
+          February 2023
           </Typography>
           <ListItemButton href='https://leadin-page-soundwave.vercel.app/soudwave' target='_blank'>
              <img className='img_sound' 

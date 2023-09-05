@@ -37,10 +37,11 @@ export default function CardAlienTravel() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+          Startup-Web-page
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          Created with html, css technologies, such as trellor, github, figma, canva...
+          December 2022
           </Typography>
           <ListItemButton href='https://reoobot.github.io/Startup-Web-page/' target='_blank' >
              <img className='img_sound' 
