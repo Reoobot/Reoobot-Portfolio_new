@@ -21,7 +21,9 @@ export default function Cv() {
               </video>
 
                 <div className='tex_button' data-aos="fade-right">
-                  <Button href='https://youtu.be/OfHpUpm2kwM' target='blank' >https://youtu.be/OfHpUpm2kwM</Button>
+                  <Button 
+                  variant="contained"
+                  href='https://youtu.be/OfHpUpm2kwM' target='blank' >PLAY</Button>
                 </div>
             </div>
             <div data-aos="fade-left">

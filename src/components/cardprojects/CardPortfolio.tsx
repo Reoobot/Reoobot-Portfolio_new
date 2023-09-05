@@ -37,10 +37,11 @@ export default function CardPortfolio() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+            Portfolio
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          Created with html, tailwind css, javascript technologies, such as trellor, github, figma, canva...
+          January 2023
           </Typography>
           <ListItemButton href='https://reoobot.github.io/Porfolio-Freddy-Vegas-web-pages/' target='_blank'>
              <img className='img_sound' 
